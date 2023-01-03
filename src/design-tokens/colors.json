@@ -1,0 +1,22 @@
+{
+  "title": "Colors",
+  "description": "Codes Hexadécimaux des couleurs",
+  "items": [
+    {
+      "name": "dark",
+      "value": "#424242"
+    },
+    {
+      "name": "light",
+      "value": "#ffffff"
+    },
+    {
+      "name": "light-2",
+      "value": "#fef8ec"
+    },
+    {
+      "name": "main",
+      "value": "#c6ae78"
+    }
+  ]
+}

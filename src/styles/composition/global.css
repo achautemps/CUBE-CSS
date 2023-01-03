@@ -1,0 +1,36 @@
+body {
+  line-height: 1.5;
+  padding-bottom: var(--spacing-xl);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--size-xl);
+}
+
+h2,
+h3 {
+  font-size: var(--size-l);
+}
+
+a {
+  color: currentColor;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+:focus {
+  outline: 2px dotted;
+  outline-offset: 0.25rem;
+}

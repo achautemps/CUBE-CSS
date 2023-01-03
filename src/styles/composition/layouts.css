@@ -1,0 +1,24 @@
+.container {
+  max-width: 95rem;
+  padding-inline: var(--space-container);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.flex-flow {
+  display: flex;
+  gap: var(--flow-gap);
+  align-items: var(--vertical-align, stretch);
+  justify-content: var(--horizontal-align, flex-start);
+}
+.grid-flow {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--grid-placement, auto-fit),
+    minmax(var(--grid-item-min-size, 10rem), 1fr)
+  );
+  gap: var(--flow-gap, var(--space-l));
+}
+.flow > * + * {
+  margin-top: var(--flow-space);
+}

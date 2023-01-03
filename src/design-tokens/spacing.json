@@ -1,0 +1,41 @@
+{
+  "title": "Spacing",
+  "description": "Espaces en px, avec valeur min pour mobile et valeur max pour desktop, seront convertis en rem",
+  "items": [
+    {
+      "name": "container",
+      "min": 40,
+      "max": 40
+    },
+    {
+      "name": "gutter",
+      "min": 10,
+      "max": 20
+    },
+    {
+      "name": "xs",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "name": "s",
+      "min": 14,
+      "max": 22
+    },
+    {
+      "name": "m",
+      "min": 22,
+      "max": 34
+    },
+    {
+      "name": "l",
+      "min": 32,
+      "max": 48
+    },
+    {
+      "name": "xl",
+      "min": 40,
+      "max": 60
+    }
+  ]
+}

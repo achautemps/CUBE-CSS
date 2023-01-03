@@ -1,0 +1,25 @@
+/*@import 'tailwindcss/base';*/
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './composition/variables.css';
+@import './composition/reset.css';
+@import './composition/global.css';
+@import './composition/layouts.css';
+
+@import './blocks/card.css';
+@import './blocks/header.css';
+@import './blocks/button.css';
+
+h1 {
+  /* Pourquoi CSS Var via un plugin ? 
+  color: var(--color-main);
+
+  plutôt que theme tailwind ? 
+  color: theme('colors.main');
+  color: theme('colors.tertiary-glare');*/
+}
+
+.reassurance {
+  --grid-item-min-size: calc(50% - var(--flow-gap));
+}

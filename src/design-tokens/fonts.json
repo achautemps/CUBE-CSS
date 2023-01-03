@@ -1,0 +1,16 @@
+{
+  "title": "Fonts",
+  "description": "Tableaux de font, à mettre dans l'ordre de priorité",
+  "items": [
+    {
+      "name": "serif",
+      "description": "Police pour le texte courant",
+      "value": ["Georgia", "Times New Roman", "serif"]
+    },
+    {
+      "name": "sans",
+      "description": "Police pour les titres",
+      "value": ["Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+    }
+  ]
+}

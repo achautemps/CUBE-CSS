@@ -1,0 +1,16 @@
+.card {
+  --flow-space: var(--space-s);
+}
+.card__image {
+  position: relative;
+  overflow: hidden;
+}
+.card__category {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.card__footer {
+  --vertical-align: center;
+  --horizontal-align: space-between;
+}

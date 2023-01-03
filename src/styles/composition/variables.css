@@ -1,0 +1,11 @@
+:root {
+  --grid-columns: 4;
+  --flow-space: var(--space-xl);
+  --flow-gap: var(--space-gutter);
+}
+
+@screen md {
+  :root {
+    --grid-columns: 12;
+  }
+}

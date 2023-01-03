@@ -1,0 +1,33 @@
+.button {
+  @apply rounded-sm;
+  font-size: var(--size-md);
+  line-height: 2;
+  padding: 0 var(--space-s);
+  color: var(--color-light);
+  cursor: pointer;
+}
+
+.button[data-size='tiny'] {
+  font-size: var(--size-xs);
+  padding: 0 var(--space-xs);
+}
+
+.button[data-variant='primary'] {
+  background-color: var(--color-main);
+  color: var(--color-light-2);
+  border: 1px solid var(--color-main);
+}
+.button[data-variant='primary']:hover {
+  color: var(--color-main);
+  background-color: transparent;
+}
+
+.button[data-variant='secondary'] {
+  border: 1px solid var(--color-main);
+  color: var(--color-main);
+  background-color: transparent;
+}
+.button[data-variant='secondary']:hover {
+  background-color: var(--color-main);
+  color: var(--color-light-2);
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Text Sizes",
+  "description": "Font-size en px, avec valeur min pour mobile et valeur max pour desktop, seront convertis en rem",
+  "items": [
+    {
+      "name": "xs",
+      "min": 8,
+      "max": 12
+    },
+    {
+      "name": "s",
+      "min": 10,
+      "max": 14
+    },
+    {
+      "name": "md",
+      "min": 14,
+      "max": 16
+    },
+    {
+      "name": "l",
+      "min": 16,
+      "max": 26
+    },
+    {
+      "name": "xl",
+      "min": 25,
+      "max": 40
+    }
+  ]
+}
